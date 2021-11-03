@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "movieql",
   "version": "1.0.0",
   "description": "Movie API with Graphql",
@@ -20,7 +21,8 @@
   },
   "homepage": "https://github.com/kes91626/movieql#readme",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^3.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
@@ -31,9 +33,8 @@
   },
   "nodemonConfig": {
     "watch": [
-    "graphql"
+      "graphql"
     ],
     "ext": "js, ts, json, jsx, env, graphql"
-    }
-  
+  }
 }
